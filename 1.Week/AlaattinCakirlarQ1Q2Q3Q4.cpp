@@ -76,11 +76,11 @@ printf("\n\nHow many Turkish Liras do you want to exchange?...");
 scanf("%f", &money);
 
 float euro;
-euro=money*4.54238473;
+euro=money/4.54238473;
 float dollar;
-dollar=money*3.8614064;
+dollar=money/3.8614064;
 float sterling;
-sterling=money*5.0962;
+sterling=money/5.0962;
 printf("\n\n\n%f Turkish Liras are %f Euros , %f Dollars and %f Sterling\n\n\n", money,euro,dollar,sterling);
 
 printf("\nTHIS IS THE END:D\n\n");
